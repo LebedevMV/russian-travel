@@ -13,5 +13,6 @@
   .footer__links {
     flex-direction: column;
     height: 248px;
+    width: 160px;
   }
 }
