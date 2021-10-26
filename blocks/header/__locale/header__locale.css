@@ -6,7 +6,7 @@
   margin-bottom: 6px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .header__locale {
     margin-bottom: 8px;
     min-width: 62px;

@@ -2,7 +2,7 @@
   max-width: 1184px;
   display: flex;
   justify-content: space-between;
-  font-family: 'Inter';
+  font-family: 'Inter', 'Arial', sans-serif;
   color: #fff;
 }
 
@@ -21,10 +21,10 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .footer {
     max-width: 186px;
-    height: 310px;
+    min-height: 310px;
     flex-direction: column;
     padding: 0 16px;
   }
